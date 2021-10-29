@@ -1,8 +1,27 @@
 header {
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image:url(https://i0.wp.com/commencer-le-sport.com/wp-content/uploads/2020/02/IMG_1341-scaled.jpg?fit=2560%2C1920&ssl=1) ;
+    height: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre {
+    text-align: center;
+    padding: 10px;
+}
+
+.marque {
+    text-align: center;
 }
 
 .logo {
-    
+    max-width: 130px;
+    max-height: 130px;
 }
