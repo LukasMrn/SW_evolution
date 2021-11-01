@@ -4,6 +4,10 @@ body {
     font size: 16px;
 }
 
+h2, h3, h6 {
+    color: #001229;
+}
+
           /* -----En-tête----- */
 
 header {   
@@ -34,6 +38,7 @@ header {
 }
 
             /* -----Navbar----- */
+
 .navi ul{
     list-style: none;
     font-weight: bold;
@@ -61,10 +66,34 @@ header {
 }
 
         /* -----Main----- */
+main {
+    width: 80%;
+    margin: auto;
+}
 
 main > p {
     width: 80%;
     font-size: 1rem;
     text-align: center;
     margin: 20px auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.infos{
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #007DC5;
+    padding: 10px;
+}
+
+.paris {
+    width: 600px;
+    border-radius: 20px;
 }
