@@ -4,6 +4,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
     padding: 10px;
+    margin-bottom: 0px;
     background-image:url(https://i0.wp.com/commencer-le-sport.com/wp-content/uploads/2020/02/IMG_1341-scaled.jpg?fit=2560%2C1920&ssl=1) ;
     height: 150px;
 }
@@ -29,7 +30,7 @@ header {
 }
 
             /*Navbar*/
-.nav ul{
+.navi ul{
     list-style: none;
     font-weight: bold;
     width: 100%;
@@ -40,14 +41,12 @@ header {
     background-color: black;
 }
 
-.item {
+.liste {
     width: 150px;
     text-align: center;
 }
 
-nav:link {
-    color: white;
+.liste:link {
+    color: green;
 }
-ul:hover {
-    color: yellow;
-}
+
