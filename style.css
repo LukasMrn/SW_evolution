@@ -78,22 +78,34 @@ main > p {
     margin: 20px auto;
 }
 
-section {
+h2 {
+    align-items: center;
+}
+
+.container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 25px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
 }
 
 .infos{
     width: 400px;
+    max-height: 500px;
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
     border-color: #007DC5;
     padding: 10px;
+    box-shadow: 12px 12px 12px rgb(65, 68, 68);
 }
 
-.paris {
+.paris, .etoy, .strasbourg {
     width: 600px;
     border-radius: 20px;
 }
