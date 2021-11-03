@@ -1,7 +1,7 @@
-          
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font size: 16px;
+    font-size: 16px;
 }
 
 h2, h3 {
@@ -106,6 +106,15 @@ article {
     border-radius: 20px;
 }
 
+article section a {
+    color: white;
+}
+
+article section a:hover {
+    color: white;
+    text-decoration: none;
+}
+
         /* -----PAGE 2 -----*/
 
 .titrepage {
@@ -113,6 +122,14 @@ article {
     font-weight: bold;
 }
 
+.page2 {
+    align-items: center;
+    margin: 25px;
+}
+
+article h6 {
+    font-weight: bold;
+}
         /* ----- Bas de page ----- */
 
 footer {
