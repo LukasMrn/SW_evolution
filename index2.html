@@ -53,45 +53,39 @@
             Vous pouvez dés à présent vous inscrire en complétant le formulaire ci-dessous :
         </p>
     </article>
+
+            <!-- FORMULAIRE BOOTSTRAP -->
     <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="Name" class="form-label">Nom *</label>
+        <input type="text" class="form-control" id="Name" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="Forname" class="form-label">Prénom *</label>
+        <input type="text" class="form-control" id="Forname" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Adresse Email *</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
       </div>
+
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <label for="exampleFormControlTextarea1" class="form-label">Question suplémentaire</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
 
-
-    <form method="post" action="">
-        <p>Je suis :</p>
-        <input type="radio" id="male" name="gender">
-        <label for="male" class="genre">Un homme</label>
-
-        <input type="radio" id="female" name="gender">
-        <label for="female" class="genre">Une femme</label>
-
-        <label for="name">Nom
-        <input type="text" name="name" id="username">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          *J'accepte les termes de la politique de confidentialité
         </label>
+      </div>
+      
+      <div class="d-grid gap-2 col-4 mx-auto">
+        <button class="btn btn-primary" type="submit">Je m'inscris !</button>
+      </div>
 
-        <label for="forname">Prénom
-            <input type="text" name="forname" id="username">
-            </label>
-
-        <label for="email">Adresse mail
-        <input type="text" name="email" id="email">
-        </label>
-
-        <label for="message">Question suplémentaire
-        <textarea name="message" id="message"></textarea>
-        </label>
-
-        <input type="checkbox" id="politics">
-        <label for="politics">En cochant cette case, j'accepte la politique de confidentialité</label>
-
-        <button class="btn btn-primary" type="button">Je m'inscris</button>
-    </form>
 </main>
 
 <footer>

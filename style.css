@@ -131,20 +131,8 @@ article h6 {
     font-weight: bold;
 }
 
-        /* ----- Formulaire -----*/
-
-form {
-    width: 200px;
-    margin: auto;
-}
-
-form label {
-    display: block;
-    font-weight: bold;
-}
-
-label.genre {
-    display: inline-block;
+article {
+    margin: 25px;
 }
 
         /* ----- Bas de page ----- */
@@ -157,6 +145,7 @@ footer {
     padding-top: 15px;
     display: flex;
     justify-content: space-around;
+    margin-top: 25px;
 }
 
 footer ul {
