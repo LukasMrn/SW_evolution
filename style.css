@@ -130,6 +130,23 @@ article section a:hover {
 article h6 {
     font-weight: bold;
 }
+
+        /* ----- Formulaire -----*/
+
+form {
+    width: 200px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+label.genre {
+    display: inline-block;
+}
+
         /* ----- Bas de page ----- */
 
 footer {
