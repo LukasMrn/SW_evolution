@@ -13,6 +13,8 @@ Possibilité de cliquer sur le premier évènement (paris) ou sur l'onglet "év�
 
 Je n'ai pas mis beaucoup de bootstrap parce que je veux m'habituer à utiliser les propriétés css brute. 
 
+Lien pour accéder au dépot distant : https://github.com/LukasMrn/SW_evolution
+
 Lien pour accéder au site : https://lukasmrn.github.io/SW_evolution/
 
 Lukas Marin
