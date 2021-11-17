@@ -11,6 +11,9 @@ La page d'accueil permet de mettre en avant les évènements par ordre chronolog
 
 Possibilité de cliquer sur le premier évènement (paris) ou sur l'onglet "évènements" dans le menu pour accéder à la seconde page (les détails de l'évènement avec un formulaire d'inscription).
 
+Je n'ai pas mis beaucoup de bootstrap parce que je veux m'habituer à utiliser les propriétés css brute. 
+
+Lien pour accéder au site : https://lukasmrn.github.io/SW_evolution/
 
 Lukas Marin
 (Fichié modifié avec vi)
