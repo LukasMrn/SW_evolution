@@ -91,14 +91,13 @@ article {
 }
 
 .infos{
-    width: 400px;
-    max-height: 500px;
+    max-height: 400px;
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
     border-color: #007DC5;
     padding: 10px;
-    box-shadow: 12px 12px 12px rgb(65, 68, 68);
+    box-shadow: 10px 10px 10px rgb(65, 68, 68);
 }
 
 .paris, .etoy, .strasbourg {
@@ -168,4 +167,13 @@ footer a:hover {
 
 .menu2 {
     text-align: center;
+}
+
+        /* ----- Media quaries ----- */
+
+@media screen and (max-width : 1300px) {
+    .container {
+         flex-direction: column;
+         align-items: center;
+    }
 }
